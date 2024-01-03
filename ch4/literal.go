@@ -6,7 +6,7 @@ func main() {
 	a1 := []string{1: "one", 2: "two"}
 	a2 := [3]string{"", "one", "two"}
 	a3 := [...]string{"", "one", "two"}
-	fmt.Println(a1, a2, a3, a2 == a3) // can't compare a1 == a2
+	fmt.Println(a1 == nil, a2, a3, a2 == a3) // can't compare a1 == a2
 
 	var m0 map[string]int
 	m1 := make(map[string]int)
